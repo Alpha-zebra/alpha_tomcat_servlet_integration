@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gbk"?>
+<Context >
+    <Manager className="org.apache.catalina.session.PersistentManager" saveOnRestart="true">
+    <!--<Manager className="org.apache.catalina.session.PersistentManager" maxIdleSwap="1">-->
+        <Store className="org.apache.catalina.session.FileStore" directory="e:/session">
+        </Store>
+    </Manager>
+</Context>

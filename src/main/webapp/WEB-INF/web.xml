@@ -80,6 +80,22 @@
         <servlet-name>integration</servlet-name>
         <url-pattern>/integration/show</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>Passivate</servlet-name>
+        <servlet-class>servlet.PassivateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Passivate</servlet-name>
+        <url-pattern>/Passivate</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Activate</servlet-name>
+        <servlet-class>servlet.ActiveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Activate</servlet-name>
+        <url-pattern>/Active</url-pattern>
+    </servlet-mapping>
     <filter>
         <filter-name>charset</filter-name>
         <filter-class>filter.CharsetFilter</filter-class>
